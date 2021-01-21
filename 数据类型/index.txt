@@ -1,0 +1,15 @@
+typeScript的数据类型：
+  布尔类型(boolean)
+  数字类型(number)
+  字符串类型(string)
+  数组类型(array)
+  元组类型(tuple)
+  任意类型(any)
+  枚举类型(enum)
+  null 和 undefined
+  void类型
+  never类型
+
+注意
+1.  ts声明变量时，如果没有进行变量赋值或变量类型限制，其类型为any。如果进行了变量赋值，则会自动检测赋值变量类型，并用此类型
+限制之后的赋值
